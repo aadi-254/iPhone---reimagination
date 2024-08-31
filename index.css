@@ -1,0 +1,512 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+nav{
+    position: absolute;
+    top: 0%;
+    height: 13vh;
+    width: 100vw;
+    background: black;
+    display: flex;
+    z-index: 999;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    align-content: center;
+    height: 100%;
+    left: 4%;
+}
+
+
+
+
+nav .menu{
+    position: absolute;
+    right: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 40%;
+
+}
+.menu a{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 300ms;
+}
+.menu a:hover{
+    color: rgb(211, 211, 211);
+    font-size: 18px;
+
+}
+
+
+.menus{
+    position: absolute;
+    height: 100%;
+    align-content: center;
+    right: 4%;
+}
+
+/*********** From Uiverse.io by vinodjangid07 ********************/ 
+#checkbox {
+    display: none;
+  }
+  
+  .toggle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: .5s;
+  }
+  
+  .bars {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(176, 92, 255);
+    border-radius: 4px;
+  }
+  
+  #bar2 {
+    transition-duration: .8s;
+  }
+  
+  #bar1,#bar3 {
+    width: 70%;
+  }
+  
+  #checkbox:checked + .toggle .bars {
+    position: absolute;
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar2 {
+    transform: scaleX(0);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar1 {
+    width: 100%;
+    transform: rotate(45deg);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar3 {
+    width: 100%;
+    transform: rotate(-45deg);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle {
+    transition-duration: .5s;
+    transform: rotate(180deg);
+  }
+
+
+  /************ main *******************/
+  main{
+    position: absolute;
+    top: 4%;
+    background: rgb(216, 234, 255);
+    height: 170vh;
+    width: 100vw;
+  }
+  main .iphone{
+    position: absolute;
+    height: 70vh;
+    right: 0%;
+    width: 50%;
+  }
+  /* main i{
+    position: absolute;
+    left: 20vw;
+    top: 70vh;
+    color: black;
+    height: 400px;
+    width: 400px;
+    font-size: 10vh;
+  } */
+
+  .b-name{
+    color: black;
+    font-size: calc(27vh + 7vw);
+    position: absolute;
+    top: 10%;
+    left: calc(10% + 2vw);
+    font-family: "Poppins", sans-serif;
+  }
+  .i1{
+    position: absolute;
+    top: 80vh;
+    left: calc(30vh + 7vw);
+    height: calc(65vh + 13vw);
+    width: 45vw;
+  }
+  .b-slogan{
+    color: black;
+    font-weight: 200;
+    font-size: calc(4vh + 5vw);
+    position: absolute;
+    top: 56%;
+    right: 5%;
+    font-family: "Poppins", sans-serif;
+  }
+
+  /***********************    PAGE 2       ***********************************************/
+
+.scroll{
+  position: absolute;
+  top: 150vh;
+  overflow-x: hidden;
+  width: 100vw;
+  height: calc(60vh + 50px);
+
+}
+  .box {
+    background: rgb(0, 0, 0);
+    width: 160vw;
+    position: absolute;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --mask:
+    radial-gradient(46.65px at 50% 64px,#000 99%,#0000 101%) calc(50% - 80px) 0/160px 51% repeat-x,
+    radial-gradient(46.65px at 50% -24px,#0000 99%,#000 101%) 50% 40px/160px calc(51% - 40px) repeat-x,
+    radial-gradient(46.65px at 50% calc(100% - 64px),#000 99%,#0000 101%) 50% 100%/160px 51% repeat-x,
+    radial-gradient(46.65px at 50% calc(100% + 24px),#0000 99%,#000 101%) calc(50% - 80px) calc(100% - 40px)/160px calc(51% - 40px) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+.p2-slogan{
+  color: white;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.page2{
+  position: absolute;
+  top: 200vh;
+  height: 130vh;
+  width: 100vw;
+  background: rgb(0, 0, 0);
+  overflow: hidden;
+
+}
+
+.page2 video{
+  height: 130vh;
+  width: 100vw;
+  position: absolute;
+  right: -10%;
+}
+
+.page2 .p2-data{
+  position: absolute;
+  left: 1%;
+  background: linear-gradient(to right, rgb(0, 0, 0) 50%,rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.416),rgba(0, 0, 0, 0));
+  width: 50vw;
+  height: 100%;
+  align-content: center;
+  text-align: center;
+  color: white;
+  font-size: 47px;
+  font-family: "Poppins", sans-serif;
+}
+.page2 .p2-data span{
+  width: 59%;
+  display: flex;
+}
+
+
+.page3{
+  position: absolute;
+  top: 350vh;
+  height: 130vh;
+  width: 100vw;
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+.page3 .H3{
+  position: absolute;
+  overflow: hidden;
+  top: 6%;
+  left: 7%;
+  color: rgb(0, 0, 0);
+  font-size: 56px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  width: 50vw;
+  line-height: 10vh;
+}
+.page3 .ip3{
+  position: absolute;
+  background: url("security.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 27%;
+  left: 7%;
+  height: 55%;
+  width: 85%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.ip3 span{
+  overflow: hidden;
+  position: absolute;
+  width: 30%;
+  top: 34%;
+  left: 6%;
+  color: white;
+  font-size: 41px;
+  line-height: 6.6vh;
+}
+
+
+/***************************************** page 4 ********************************/
+
+
+
+.page4{
+  position: absolute;
+  top: 502vh;
+  height: 140vh;
+  width: 100vw;
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+  font-size: 205px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+.H4{
+  position: absolute;
+  top: 23%;
+  left: 20%;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+}
+
+.page4 i{
+  font-size: 160px;
+  position: absolute;
+  top: 50%;
+  color: black;
+  left: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.product1{
+  position: absolute;
+  top: 18%;
+  left: 10%;
+  height: 40%;
+  width: 26%;
+}
+
+.product2{
+  position: absolute;
+  top: 73%;
+  left: 10%;
+  height: 40%;
+  width: 40%;
+}
+
+
+.product3{
+  position: absolute;
+  top: 26%;
+  right: 10%;
+  height: 46%;
+  width: 30%;
+}
+
+
+.product4{
+  position: absolute;
+  top: 66%;
+  right: 10%;
+  height: 30%;
+  width: 26%;
+}
+
+
+/******************** page 5 **************************/
+
+.page5{
+  position: absolute;
+  top: 644vh;
+  height: 130vh;
+  width: 100vw;
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+.H5{
+  position: absolute;
+  overflow: hidden;
+  top: 6%;
+  left: 10%;
+  color: rgb(0, 0, 0);
+  font-size: 56px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+.images_of_phone{
+  position: absolute;
+  top: 23%;
+  width: 140vw;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.images_of_phone .imodel{
+  top: 3%;
+  width: 20vw;
+  height: 95%;
+  overflow: hidden;
+}
+.imodel span{
+  position: relative;
+  top: 10%;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/**************************        page 6         *************************************/
+.page6{
+  position: absolute;
+  top: 775vh;
+  height: 140vh;
+  width: 100vw;
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+.H6{
+  position: absolute;
+  overflow: hidden;
+  top: 6%;
+  left: 10%;
+  color: rgb(0, 0, 0);
+  font-size: 56px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  width: 60%;
+}
+
+.page6 p{
+  position: relative;
+  top: 30%;
+  left: 10%;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.page6 img{
+  height: 40%;
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  right: 6%;
+}
+
+/****************************   footer   ****************************/
+
+
+.container {
+  position: absolute;
+  top: 900vh;
+  min-height: 100vh;
+  width: 100vw;
+  
+}
+.container h1{
+  position: relative;
+  left: 12%;
+  font-size: 68px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.footer {
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  width: 80%;
+  max-width: 100vw;
+  padding-top: 13vh;
+  padding-left: 12%;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.footer-section h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 10px;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.d{
+  position: absolute;
+  background-color: aqua;
+  height: 400vh;
+  top: 1025vh;
+  width: 100vw;
+  /* display: none; */
+}
+
+
+
+
