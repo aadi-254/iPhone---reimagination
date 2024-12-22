@@ -1,139 +1,139 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    overflow-x: hidden;
-}
-nav{
-    position: absolute;
-    top: 0%;
-    height: 13vh;
-    width: 100vw;
-    background: black;
-    display: flex;
-    z-index: 999;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-.logo{
-    color: white;
-    font-size: 35px;
-    position: absolute;
-    align-content: center;
-    height: 100%;
-    left: 4%;
+nav {
+  position: absolute;
+  top: 0%;
+  height: 13vh;
+  width: 100vw;
+  background: black;
+  display: flex;
+  z-index: 999;
 }
 
-
-
-
-nav .menu{
-    position: absolute;
-    right: 8%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 100%;
-    width: 40%;
-
-}
-.menu a{
-    color: white;
-    font-family: "Poppins", sans-serif;
-    text-decoration: none;
-    font-size: 17px;
-    transition: 300ms;
-}
-.menu a:hover{
-    color: rgb(211, 211, 211);
-    font-size: 18px;
-
+.logo {
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  align-content: center;
+  height: 100%;
+  left: 4%;
 }
 
 
-.menus{
-    position: absolute;
-    height: 100%;
-    align-content: center;
-    right: 4%;
+
+
+nav .menu {
+  position: absolute;
+  right: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 40%;
+
 }
 
-/*********** From Uiverse.io by vinodjangid07 ********************/ 
+.menu a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 300ms;
+}
+
+.menu a:hover {
+  color: rgb(211, 211, 211);
+  font-size: 18px;
+
+}
+
+
+.menus {
+  position: absolute;
+  height: 100%;
+  align-content: center;
+  right: 4%;
+}
+
+/*********** From Uiverse.io by vinodjangid07 ********************/
 #checkbox {
-    display: none;
-  }
-  
-  .toggle {
-    position: relative;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    transition-duration: .5s;
-  }
-  
-  .bars {
-    width: 100%;
-    height: 4px;
-    background-color: rgb(176, 92, 255);
-    border-radius: 4px;
-  }
-  
-  #bar2 {
-    transition-duration: .8s;
-  }
-  
-  #bar1,#bar3 {
-    width: 70%;
-  }
-  
-  #checkbox:checked + .toggle .bars {
-    position: absolute;
-    transition-duration: .5s;
-  }
-  
-  #checkbox:checked + .toggle #bar2 {
-    transform: scaleX(0);
-    transition-duration: .5s;
-  }
-  
-  #checkbox:checked + .toggle #bar1 {
-    width: 100%;
-    transform: rotate(45deg);
-    transition-duration: .5s;
-  }
-  
-  #checkbox:checked + .toggle #bar3 {
-    width: 100%;
-    transform: rotate(-45deg);
-    transition-duration: .5s;
-  }
-  
-  #checkbox:checked + .toggle {
-    transition-duration: .5s;
-    transform: rotate(180deg);
-  }
+  display: none;
+}
+
+.toggle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition-duration: .5s;
+}
+
+.bars {
+  width: 100%;
+  height: 4px;
+  background-color: rgb(176, 92, 255);
+  border-radius: 4px;
+}
+
+#bar2 {
+  transition-duration: .8s;
+}
+
+#bar1,
+#bar3 {
+  width: 70%;
+}
+
+#checkbox:checked+.toggle .bars {
+  position: absolute;
+  transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle #bar2 {
+  transform: scaleX(0);
+  transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle #bar1 {
+  width: 100%;
+  transform: rotate(45deg);
+  transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle #bar3 {
+  width: 100%;
+  transform: rotate(-45deg);
+  transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle {
+  transition-duration: .5s;
+  transform: rotate(180deg);
+}
 
 
-  /************ main *******************/
-  main{
-    position: absolute;
-    top: 4%;
-    background: rgb(216, 234, 255);
-    height: 170vh;
-    width: 100vw;
-  }
-  main .iphone{
-    position: absolute;
-    height: 70vh;
-    right: 0%;
-    width: 50%;
-  }
-  /* main i{
+/************ main *******************/
+main {
+  position: absolute;
+  top: 4%;
+  background: rgb(216, 234, 255);
+  height: 170vh;
+  width: 100vw;
+}
+
+
+/* main i{
     position: absolute;
     left: 20vw;
     top: 70vh;
@@ -143,34 +143,36 @@ nav .menu{
     font-size: 10vh;
   } */
 
-  .b-name{
-    color: black;
-    font-size: calc(27vh + 7vw);
-    position: absolute;
-    top: 10%;
-    left: calc(10% + 2vw);
-    font-family: "Poppins", sans-serif;
-  }
-  .i1{
-    position: absolute;
-    top: 80vh;
-    left: calc(30vh + 7vw);
-    height: calc(65vh + 13vw);
-    width: 45vw;
-  }
-  .b-slogan{
-    color: black;
-    font-weight: 200;
-    font-size: calc(4vh + 5vw);
-    position: absolute;
-    top: 56%;
-    right: 5%;
-    font-family: "Poppins", sans-serif;
-  }
+.b-name {
+  color: black;
+  font-size: calc(27vh + 7vw);
+  position: absolute;
+  top: 10%;
+  left: calc(10% + 2vw);
+  font-family: "Poppins", sans-serif;
+}
 
-  /***********************    PAGE 2       ***********************************************/
+.i1 {
+  position: absolute;
+  top: 80vh;
+  left: calc(30vh + 7vw);
+  height: calc(65vh + 13vw);
+  width: 45vw;
+}
 
-.scroll{
+.b-slogan {
+  color: black;
+  font-weight: 200;
+  font-size: calc(4vh + 5vw);
+  position: absolute;
+  top: 56%;
+  right: 5%;
+  font-family: "Poppins", sans-serif;
+}
+
+/***********************    PAGE 2       ***********************************************/
+
+.scroll {
   position: absolute;
   top: 150vh;
   overflow-x: hidden;
@@ -178,25 +180,26 @@ nav .menu{
   height: calc(60vh + 50px);
 
 }
-  .box {
-    background: rgb(0, 0, 0);
-    width: 160vw;
-    position: absolute;
-    height: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    --mask:
-    radial-gradient(46.65px at 50% 64px,#000 99%,#0000 101%) calc(50% - 80px) 0/160px 51% repeat-x,
-    radial-gradient(46.65px at 50% -24px,#0000 99%,#000 101%) 50% 40px/160px calc(51% - 40px) repeat-x,
-    radial-gradient(46.65px at 50% calc(100% - 64px),#000 99%,#0000 101%) 50% 100%/160px 51% repeat-x,
-    radial-gradient(46.65px at 50% calc(100% + 24px),#0000 99%,#000 101%) calc(50% - 80px) calc(100% - 40px)/160px calc(51% - 40px) repeat-x;
+
+.box {
+  background: rgb(0, 0, 0);
+  width: 160vw;
+  position: absolute;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --mask:
+    radial-gradient(46.65px at 50% 64px, #000 99%, #0000 101%) calc(50% - 80px) 0/160px 51% repeat-x,
+    radial-gradient(46.65px at 50% -24px, #0000 99%, #000 101%) 50% 40px/160px calc(51% - 40px) repeat-x,
+    radial-gradient(46.65px at 50% calc(100% - 64px), #000 99%, #0000 101%) 50% 100%/160px 51% repeat-x,
+    radial-gradient(46.65px at 50% calc(100% + 24px), #0000 99%, #000 101%) calc(50% - 80px) calc(100% - 40px)/160px calc(51% - 40px) repeat-x;
   -webkit-mask: var(--mask);
-          mask: var(--mask);
+  mask: var(--mask);
 }
 
-.p2-slogan{
+.p2-slogan {
   color: white;
   font-size: 60px;
   font-family: "Poppins", sans-serif;
@@ -204,7 +207,7 @@ nav .menu{
 
 
 
-.page2{
+.page2 {
   position: absolute;
   top: 200vh;
   height: 130vh;
@@ -214,17 +217,17 @@ nav .menu{
 
 }
 
-.page2 video{
+.page2 video {
   height: 130vh;
   width: 100vw;
   position: absolute;
   right: -10%;
 }
 
-.page2 .p2-data{
+.page2 .p2-data {
   position: absolute;
   left: 1%;
-  background: linear-gradient(to right, rgb(0, 0, 0) 50%,rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.416),rgba(0, 0, 0, 0));
+  background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.416), rgba(0, 0, 0, 0));
   width: 50vw;
   height: 100%;
   align-content: center;
@@ -233,13 +236,14 @@ nav .menu{
   font-size: 47px;
   font-family: "Poppins", sans-serif;
 }
-.page2 .p2-data span{
+
+.page2 .p2-data span {
   width: 59%;
   display: flex;
 }
 
 
-.page3{
+.page3 {
   position: absolute;
   top: 350vh;
   height: 130vh;
@@ -248,7 +252,8 @@ nav .menu{
   overflow: hidden;
   font-family: "Poppins", sans-serif;
 }
-.page3 .H3{
+
+.page3 .H3 {
   position: absolute;
   overflow: hidden;
   top: 6%;
@@ -260,7 +265,8 @@ nav .menu{
   width: 50vw;
   line-height: 10vh;
 }
-.page3 .ip3{
+
+.page3 .ip3 {
   position: absolute;
   background: url("security.jpg");
   background-repeat: no-repeat;
@@ -272,7 +278,11 @@ nav .menu{
   border-radius: 20px;
   overflow: hidden;
 }
-.ip3 span{
+.p3{
+  display: none;
+}
+
+.ip3 span {
   overflow: hidden;
   position: absolute;
   width: 30%;
@@ -288,7 +298,7 @@ nav .menu{
 
 
 
-.page4{
+.page4 {
   position: absolute;
   top: 502vh;
   height: 140vh;
@@ -300,7 +310,8 @@ nav .menu{
   font-family: "Poppins", sans-serif;
   color: #000;
 }
-.H4{
+
+.H4 {
   position: absolute;
   top: 23%;
   left: 20%;
@@ -308,7 +319,7 @@ nav .menu{
   -webkit-text-stroke-width: 3px;
 }
 
-.page4 i{
+.page4 i {
   font-size: 160px;
   position: absolute;
   top: 50%;
@@ -318,7 +329,7 @@ nav .menu{
   width: 200px;
 }
 
-.product1{
+.product1 {
   position: absolute;
   top: 18%;
   left: 10%;
@@ -326,7 +337,7 @@ nav .menu{
   width: 26%;
 }
 
-.product2{
+.product2 {
   position: absolute;
   top: 73%;
   left: 10%;
@@ -335,7 +346,7 @@ nav .menu{
 }
 
 
-.product3{
+.product3 {
   position: absolute;
   top: 26%;
   right: 10%;
@@ -344,7 +355,7 @@ nav .menu{
 }
 
 
-.product4{
+.product4 {
   position: absolute;
   top: 66%;
   right: 10%;
@@ -355,7 +366,7 @@ nav .menu{
 
 /******************** page 5 **************************/
 
-.page5{
+.page5 {
   position: absolute;
   top: 644vh;
   height: 130vh;
@@ -366,7 +377,8 @@ nav .menu{
   font-family: "Poppins", sans-serif;
   color: #000;
 }
-.H5{
+
+.H5 {
   position: absolute;
   overflow: hidden;
   top: 6%;
@@ -377,24 +389,31 @@ nav .menu{
   font-family: "Poppins", sans-serif;
   width: 100%;
 }
-
-.images_of_phone{
+.phones{
   position: absolute;
-  top: 23%;
-  width: 140vw;
+  top: 30%;
   height: 50%;
+  width: 90vw;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.images_of_phone {
+  position: absolute;
+  width: 140vw;
+  height: 99%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.images_of_phone .imodel{
+.images_of_phone .imodel {
   top: 3%;
   width: 20vw;
   height: 95%;
   overflow: hidden;
 }
-.imodel span{
+
+.imodel span {
   position: relative;
   top: 10%;
   font-size: 36px;
@@ -404,7 +423,7 @@ nav .menu{
 
 
 /**************************        page 6         *************************************/
-.page6{
+.page6 {
   position: absolute;
   top: 775vh;
   height: 140vh;
@@ -415,7 +434,8 @@ nav .menu{
   font-family: "Poppins", sans-serif;
   color: #000;
 }
-.H6{
+
+.H6 {
   position: absolute;
   overflow: hidden;
   top: 6%;
@@ -427,7 +447,7 @@ nav .menu{
   width: 60%;
 }
 
-.page6 p{
+.page6 p {
   position: relative;
   top: 30%;
   left: 10%;
@@ -435,7 +455,8 @@ nav .menu{
   font-family: "Poppins", sans-serif;
   font-weight: 300;
 }
-.page6 img{
+
+.page6 img {
   height: 40%;
   width: 30%;
   position: absolute;
@@ -451,15 +472,17 @@ nav .menu{
   top: 900vh;
   min-height: 100vh;
   width: 100vw;
-  
+
 }
-.container h1{
+
+.container h1 {
   position: relative;
   left: 12%;
   font-size: 68px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
+
 .footer {
   display: flex;
   gap: 10%;
@@ -469,17 +492,20 @@ nav .menu{
   padding-top: 13vh;
   padding-left: 12%;
 }
+
 .footer-section {
   display: flex;
   flex-direction: column;
   text-align: left;
 }
+
 .footer-section h3 {
   font-family: "Poppins", sans-serif;
   font-size: 50px;
   margin-bottom: 10px;
   width: 100%;
 }
+
 .footer-section ul {
   list-style: none;
   padding: 10px;
@@ -488,25 +514,199 @@ nav .menu{
 
 }
 
+/*********************************************** mobile *********************************/
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  nav .menu {
+    display: none;
+  }
+
+  .logo {
+    font-size: 50px;
+  }
+  main{
+    height: 140vh;
+  }
+  .b-name{
+    font-size: 20vw;
+    font-weight: 350;
+  }
+  .b-slogan{
+    top: 50%;
+  }
+  .i1{
+    left: 0%;
+    top: 55vh;
+    width: 90vw;
+    height: 50vh;
+  }
 
 
+/***** scroll ****/
 
-
-
-
-
-
-
-
-.d{
-  position: absolute;
-  background-color: aqua;
-  height: 400vh;
-  top: 1025vh;
-  width: 100vw;
-  /* display: none; */
+.scroll{
+  top: 100vh;
+}
+.p2-slogan{
+  font-size: 10vw;
 }
 
 
+/***** page 2 ****/
+
+.page2{
+  top: 150vh;
+  height: 90vh;
+}
+.page2 video{
+  top: 40%;
+  width: 90vw;
+  height: 40vh;
+  left: 5%;
+}
+.page2 .p2-data {
+width: 100vw;
+font-size: 8vw;
+height: 20vh;
+}
+.page2 .p2-data span {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  display: flex;
+}
+
+/***** page 3 ****/
 
 
+.page3{
+  top: 260vh;
+}
+.page3 .H3{
+  width: 90vw;
+  font-size: 12vw;
+  line-height: 7vh;
+}
+.page3 .ip3{
+top: 35%;
+left: 5%;
+width: 90vw;
+height: 30%;
+}
+.ip3 span{
+  display: none;
+}
+.p3{
+  display: block;
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  font-size: 8vw;
+}
+
+
+/**** page 4 ****/
+.page4{
+  top: 390vh;
+  font-size: 20vw;
+  height: 200vh;
+}
+.H4{
+  top: 26%;
+  left: 5%;
+  -webkit-text-stroke-width: 1.5px;
+}
+.page4 i{
+  left: 28%;
+  top: 32%;
+}
+.product1{
+  height: 350px;
+  width: 300px;
+  left: -4%;
+  top: 20%;
+}
+.product2{
+  height: 350px;
+  width: 300px;
+  top: 63%;
+  left: -4%;
+}
+.product3 {
+  top: 43%;
+  right: 0%;
+  height: 350px;
+  width: 300px;
+}
+.product4 {
+  top: 69%;
+  right: 0%;
+  height: 250px;
+  width: 200px;
+}
+
+
+/**** page 5 ****/
+
+.page5{
+  top: 590vh;
+}
+.H5{
+  left: 7%;
+}
+.images_of_phone{
+  top: 30%;
+  left: 4%;
+  width: 1400px;
+  align-items: normal;
+
+}
+.images_of_phone .imodel {
+  width: 400px;
+}
+
+
+/*** page 6 ***/
+.page6{
+  top: 730vh;
+}
+.H6{
+  width: 90%;
+  left: 4%;
+  font-size: 15vw;
+  font-weight: 400;
+  line-height: 9.2vh;
+}
+.page6 p{
+  top: 36%;
+  left: 5%;
+  font-size: 24px;
+  width: 95vw;
+  text-align: justify;
+}
+.page6 img{
+  display: none;
+}
+
+
+/**** container ****/
+.container {
+  position: absolute;
+  top: 870vh;
+  min-height: 100vh;
+  width: 100vw;
+  padding-bottom: 100px;
+}
+.footer{
+padding: 6%;
+flex-direction: column;
+}
+.footer-section{
+  margin: 5%;
+}
+}
